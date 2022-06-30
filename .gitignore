@@ -1,0 +1,87 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+BudgetFront/dist
+BudgetFront/tmp
+BudgetFront/out-tsc
+# Only exists if Bazel was run
+BudgetFront/bazel-out
+
+# dependencies
+BudgetFront/node_modules
+
+# profiling files
+BudgetFront/chrome-profiler-events*.json
+BudgetFront/speed-measure-plugin*.json
+
+# IDEs and editors
+.idea
+BudgetFront/.project
+BudgetFront/.classpath
+BudgetFront/.c9/
+BudgetFront/*.launch
+BudgetFront/.settings/
+BudgetFront/*.sublime-workspace
+
+# IDE - VSCode
+BudgetFront/.vscode/*
+!BudgetFront/.vscode/settings.json
+!BudgetFront/.vscode/tasks.json
+!BudgetFront/.vscode/launch.json
+!BudgetFront/.vscode/extensions.json
+BudgetFront/.history/*
+
+# misc
+BudgetFront/.sass-cache
+BudgetFront/connect.lock
+BudgetFront/coverage
+BudgetFront/libpeerconnection.log
+BudgetFront/npm-debug.log
+BudgetFront/yarn-error.log
+BudgetFront/testem.log
+BudgetFront/typings
+
+# System Files
+BudgetFront/.DS_Store
+BudgetFront/Thumbs.db
+
+BudgetBack/*.swp
+BudgetBack/*.*~
+BudgetBack/project.lock.json
+BudgetBack/.DS_Store
+BudgetBack/*.pyc
+BudgetBack/nupkg/
+
+# Visual Studio Code
+BudgetBack/.vscode
+
+# Rider
+BudgetBack/.idea
+
+# User-specific files
+BudgetBack/*.suo
+BudgetBack/*.user
+BudgetBack/*.userosscache
+BudgetBack/*.sln.docstates
+
+# Build results
+BudgetBack/[Dd]ebug/
+BudgetBack/[Dd]ebugPublic/
+BudgetBack/[Rr]elease/
+BudgetBack/[Rr]eleases/
+BudgetBack/x64/
+BudgetBack/x86/
+BudgetBack/build/
+BudgetBack/bld/
+BudgetBack/[Bb]in/
+BudgetBack/[Oo]bj/
+BudgetBack/[Oo]ut/
+BudgetBack/msbuild.log
+BudgetBack/msbuild.err
+BudgetBack/msbuild.wrn
+
+# Visual Studio 2015
+BudgetBack/.vs/
+
+.DS_Store
+Thumbs.db
